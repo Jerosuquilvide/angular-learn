@@ -1,0 +1,6 @@
+<h2>Cart</h2>
+
+<div class="cart-item" *ngFor="let item of items">
+  <h3>{{ item.name }}</h3>
+  <h4>{{ item.price | currency }}</h4>
+</div>
